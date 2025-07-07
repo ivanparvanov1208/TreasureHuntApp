@@ -15,94 +15,95 @@
 
         private void InitializeComponent()
         {
-            this.lblLocation = new System.Windows.Forms.Label();
-            this.locationImage = new System.Windows.Forms.PictureBox();
-            this.btnExplore = new System.Windows.Forms.Button();
-            this.btnInventory = new System.Windows.Forms.Button();
-            this.btnMap = new System.Windows.Forms.Button();
-            this.btnHelp = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.locationImage)).BeginInit();
-            this.SuspendLayout();
+            lblLocation = new Label();
+            locationImage = new PictureBox();
+            btnExplore = new Button();
+            btnInventory = new Button();
+            btnMap = new Button();
+            btnHelp = new Button();
+            ((System.ComponentModel.ISupportInitialize)locationImage).BeginInit();
+            SuspendLayout();
             // 
             // lblLocation
             // 
-            this.lblLocation.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblLocation.ForeColor = System.Drawing.Color.DarkBlue;
-            this.lblLocation.Location = new System.Drawing.Point(25, 20);
-            this.lblLocation.Name = "lblLocation";
-            this.lblLocation.Size = new System.Drawing.Size(750, 40);
-            this.lblLocation.TabIndex = 0;
-            this.lblLocation.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            lblLocation.Font = new Font("Arial", 18F, FontStyle.Bold);
+            lblLocation.ForeColor = Color.DarkBlue;
+            lblLocation.Location = new Point(25, 20);
+            lblLocation.Name = "lblLocation";
+            lblLocation.Size = new Size(750, 40);
+            lblLocation.TabIndex = 0;
+            lblLocation.TextAlign = ContentAlignment.MiddleCenter;
+            lblLocation.Click += lblLocation_Click;
             // 
             // locationImage
             // 
-            this.locationImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.locationImage.Location = new System.Drawing.Point(100, 70);
-            this.locationImage.Name = "locationImage";
-            this.locationImage.Size = new System.Drawing.Size(600, 400);
-            this.locationImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.locationImage.TabIndex = 1;
-            this.locationImage.TabStop = false;
+            locationImage.BorderStyle = BorderStyle.FixedSingle;
+            locationImage.Location = new Point(100, 70);
+            locationImage.Name = "locationImage";
+            locationImage.Size = new Size(600, 400);
+            locationImage.SizeMode = PictureBoxSizeMode.Zoom;
+            locationImage.TabIndex = 1;
+            locationImage.TabStop = false;
             // 
             // btnExplore
             // 
-            this.btnExplore.BackColor = System.Drawing.Color.LightGreen;
-            this.btnExplore.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnExplore.Location = new System.Drawing.Point(100, 500);
-            this.btnExplore.Name = "btnExplore";
-            this.btnExplore.Size = new System.Drawing.Size(150, 50);
-            this.btnExplore.TabIndex = 2;
-            this.btnExplore.Text = "Explore";
-            this.btnExplore.UseVisualStyleBackColor = false;
+            btnExplore.BackColor = Color.LightGreen;
+            btnExplore.Font = new Font("Arial", 12F, FontStyle.Bold);
+            btnExplore.Location = new Point(100, 500);
+            btnExplore.Name = "btnExplore";
+            btnExplore.Size = new Size(150, 50);
+            btnExplore.TabIndex = 2;
+            btnExplore.Text = "Explore";
+            btnExplore.UseVisualStyleBackColor = false;
             // 
             // btnInventory
             // 
-            this.btnInventory.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.btnInventory.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnInventory.Location = new System.Drawing.Point(300, 500);
-            this.btnInventory.Name = "btnInventory";
-            this.btnInventory.Size = new System.Drawing.Size(150, 50);
-            this.btnInventory.TabIndex = 3;
-            this.btnInventory.Text = "Inventory";
-            this.btnInventory.UseVisualStyleBackColor = false;
+            btnInventory.BackColor = Color.LightGoldenrodYellow;
+            btnInventory.Font = new Font("Arial", 12F, FontStyle.Bold);
+            btnInventory.Location = new Point(300, 500);
+            btnInventory.Name = "btnInventory";
+            btnInventory.Size = new Size(150, 50);
+            btnInventory.TabIndex = 3;
+            btnInventory.Text = "Inventory";
+            btnInventory.UseVisualStyleBackColor = false;
             // 
             // btnMap
             // 
-            this.btnMap.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.btnMap.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnMap.Location = new System.Drawing.Point(500, 500);
-            this.btnMap.Name = "btnMap";
-            this.btnMap.Size = new System.Drawing.Size(150, 50);
-            this.btnMap.TabIndex = 4;
-            this.btnMap.Text = "Map";
-            this.btnMap.UseVisualStyleBackColor = false;
+            btnMap.BackColor = Color.LightSkyBlue;
+            btnMap.Font = new Font("Arial", 12F, FontStyle.Bold);
+            btnMap.Location = new Point(500, 500);
+            btnMap.Name = "btnMap";
+            btnMap.Size = new Size(150, 50);
+            btnMap.TabIndex = 4;
+            btnMap.Text = "Map";
+            btnMap.UseVisualStyleBackColor = false;
             // 
             // btnHelp
             // 
-            this.btnHelp.BackColor = System.Drawing.Color.LightGray;
-            this.btnHelp.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHelp.Location = new System.Drawing.Point(710, 20);
-            this.btnHelp.Name = "btnHelp";
-            this.btnHelp.Size = new System.Drawing.Size(80, 30);
-            this.btnHelp.TabIndex = 5;
-            this.btnHelp.Text = "Help";
-            this.btnHelp.UseVisualStyleBackColor = false;
+            btnHelp.BackColor = Color.LightGray;
+            btnHelp.Font = new Font("Arial", 9F);
+            btnHelp.Location = new Point(710, 20);
+            btnHelp.Name = "btnHelp";
+            btnHelp.Size = new Size(80, 30);
+            btnHelp.TabIndex = 5;
+            btnHelp.Text = "Help";
+            btnHelp.UseVisualStyleBackColor = false;
             // 
             // MainGameForm
             // 
-            this.ClientSize = new System.Drawing.Size(800, 600);
-            this.Controls.Add(this.btnHelp);
-            this.Controls.Add(this.btnMap);
-            this.Controls.Add(this.btnInventory);
-            this.Controls.Add(this.btnExplore);
-            this.Controls.Add(this.locationImage);
-            this.Controls.Add(this.lblLocation);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
-            this.Name = "MainGameForm";
-            this.Text = "Treasure Hunt Adventure";
-            ((System.ComponentModel.ISupportInitialize)(this.locationImage)).EndInit();
-            this.ResumeLayout(false);
+            ClientSize = new Size(800, 600);
+            Controls.Add(btnHelp);
+            Controls.Add(btnMap);
+            Controls.Add(btnInventory);
+            Controls.Add(btnExplore);
+            Controls.Add(locationImage);
+            Controls.Add(lblLocation);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            Name = "MainGameForm";
+            Text = "Treasure Hunt Adventure";
+            ((System.ComponentModel.ISupportInitialize)locationImage).EndInit();
+            ResumeLayout(false);
         }
 
         private System.Windows.Forms.Label lblLocation;

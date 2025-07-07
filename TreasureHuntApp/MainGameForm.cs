@@ -100,5 +100,10 @@ namespace TreasureHuntApp
             HelpForm helpForm = new HelpForm();
             helpForm.ShowDialog();
         }
+
+        private void lblLocation_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
