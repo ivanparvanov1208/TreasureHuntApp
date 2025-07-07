@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using TreasureHuntApp.ClassFiles;
 
-namespace TreasureHuntApp
+namespace TreasureHuntApp.ObjectForms
 {
     public partial class PuzzleForm : Form
     {
@@ -45,3 +45,4 @@ namespace TreasureHuntApp
         }
     }
 }
+

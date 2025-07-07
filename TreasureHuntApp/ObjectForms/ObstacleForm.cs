@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using System.Collections.Generic;
 
-namespace TreasureHuntApp
+namespace TreasureHuntApp.ObjectForms
 {
     public partial class ObstacleForm : Form
     {

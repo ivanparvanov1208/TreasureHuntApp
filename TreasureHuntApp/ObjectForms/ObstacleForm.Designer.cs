@@ -1,4 +1,4 @@
-﻿namespace TreasureHuntApp
+﻿namespace TreasureHuntApp.ObjectForms
 {
     partial class ObstacleForm
     {
