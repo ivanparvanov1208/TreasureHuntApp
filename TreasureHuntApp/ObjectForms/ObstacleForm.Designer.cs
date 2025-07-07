@@ -47,7 +47,7 @@
             cmbInventory.FormattingEnabled = true;
             cmbInventory.Location = new Point(20, 100);
             cmbInventory.Name = "cmbInventory";
-            cmbInventory.Size = new Size(200, 31);
+            cmbInventory.Size = new Size(292, 31);
             cmbInventory.TabIndex = 2;
             // 
             // btnUseItem
@@ -56,7 +56,7 @@
             btnUseItem.Font = new Font("Arial", 12F, FontStyle.Bold);
             btnUseItem.Location = new Point(20, 150);
             btnUseItem.Name = "btnUseItem";
-            btnUseItem.Size = new Size(150, 40);
+            btnUseItem.Size = new Size(174, 40);
             btnUseItem.TabIndex = 3;
             btnUseItem.Text = "Use Selected Item";
             btnUseItem.UseVisualStyleBackColor = false;
@@ -67,14 +67,14 @@
             btnGoAround.Font = new Font("Arial", 12F, FontStyle.Bold);
             btnGoAround.Location = new Point(200, 150);
             btnGoAround.Name = "btnGoAround";
-            btnGoAround.Size = new Size(150, 40);
+            btnGoAround.Size = new Size(203, 40);
             btnGoAround.TabIndex = 4;
             btnGoAround.Text = "Try to Go Around";
             btnGoAround.UseVisualStyleBackColor = false;
             // 
             // ObstacleForm
             // 
-            ClientSize = new Size(500, 300);
+            ClientSize = new Size(645, 300);
             Controls.Add(btnGoAround);
             Controls.Add(btnUseItem);
             Controls.Add(cmbInventory);

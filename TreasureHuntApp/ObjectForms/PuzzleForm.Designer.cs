@@ -15,63 +15,63 @@
 
         private void InitializeComponent()
         {
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.txtAnswer = new System.Windows.Forms.TextBox();
-            this.btnSubmit = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            lblTitle = new Label();
+            lblDescription = new Label();
+            txtAnswer = new TextBox();
+            btnSubmit = new Button();
+            SuspendLayout();
             // 
             // lblTitle
             // 
-            this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTitle.Location = new System.Drawing.Point(20, 20);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(0, 26);
-            this.lblTitle.TabIndex = 0;
+            lblTitle.AutoSize = true;
+            lblTitle.Font = new Font("Arial", 16F, FontStyle.Bold);
+            lblTitle.Location = new Point(20, 20);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(0, 32);
+            lblTitle.TabIndex = 0;
             // 
             // lblDescription
             // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDescription.Location = new System.Drawing.Point(20, 60);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(0, 18);
-            this.lblDescription.TabIndex = 1;
+            lblDescription.AutoSize = true;
+            lblDescription.Font = new Font("Arial", 12F);
+            lblDescription.Location = new Point(20, 60);
+            lblDescription.Name = "lblDescription";
+            lblDescription.Size = new Size(0, 23);
+            lblDescription.TabIndex = 1;
             // 
             // txtAnswer
             // 
-            this.txtAnswer.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtAnswer.Location = new System.Drawing.Point(20, 100);
-            this.txtAnswer.Name = "txtAnswer";
-            this.txtAnswer.Size = new System.Drawing.Size(400, 26);
-            this.txtAnswer.TabIndex = 2;
+            txtAnswer.Font = new Font("Arial", 12F);
+            txtAnswer.Location = new Point(20, 100);
+            txtAnswer.Name = "txtAnswer";
+            txtAnswer.Size = new Size(751, 30);
+            txtAnswer.TabIndex = 2;
             // 
             // btnSubmit
             // 
-            this.btnSubmit.BackColor = System.Drawing.Color.LightGreen;
-            this.btnSubmit.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmit.Location = new System.Drawing.Point(20, 150);
-            this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(150, 40);
-            this.btnSubmit.TabIndex = 3;
-            this.btnSubmit.Text = "Submit Answer";
-            this.btnSubmit.UseVisualStyleBackColor = false;
+            btnSubmit.BackColor = Color.LightGreen;
+            btnSubmit.Font = new Font("Arial", 12F, FontStyle.Bold);
+            btnSubmit.Location = new Point(318, 154);
+            btnSubmit.Name = "btnSubmit";
+            btnSubmit.Size = new Size(150, 40);
+            btnSubmit.TabIndex = 3;
+            btnSubmit.Text = "Submit Answer";
+            btnSubmit.UseVisualStyleBackColor = false;
             // 
             // PuzzleForm
             // 
-            this.ClientSize = new System.Drawing.Size(500, 300);
-            this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.txtAnswer);
-            this.Controls.Add(this.lblDescription);
-            this.Controls.Add(this.lblTitle);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "PuzzleForm";
-            this.Text = "Puzzle";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            ClientSize = new Size(783, 300);
+            Controls.Add(btnSubmit);
+            Controls.Add(txtAnswer);
+            Controls.Add(lblDescription);
+            Controls.Add(lblTitle);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            MinimizeBox = false;
+            Name = "PuzzleForm";
+            Text = "Puzzle";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         private System.Windows.Forms.Label lblTitle;

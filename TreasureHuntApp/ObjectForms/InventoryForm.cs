@@ -1,20 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 namespace TreasureHuntApp.ObjectForms
 {
     public partial class InventoryForm : Form
     {
-        public InventoryForm()
+        public InventoryForm(List<string> inventory)
         {
             InitializeComponent();
+
+            lstInventory.Items.AddRange(inventory.ToArray());
+            btnClose.Click += BtnClose_Click;
+        }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
+

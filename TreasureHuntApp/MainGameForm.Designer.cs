@@ -38,6 +38,7 @@
             // locationImage
             // 
             locationImage.BorderStyle = BorderStyle.FixedSingle;
+            locationImage.Image = Properties.Resources.ruins;
             locationImage.Location = new Point(100, 70);
             locationImage.Name = "locationImage";
             locationImage.Size = new Size(600, 400);

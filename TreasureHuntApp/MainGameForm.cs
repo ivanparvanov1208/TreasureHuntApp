@@ -2,10 +2,11 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using TreasureHuntApp.ClassFiles;
+using TreasureHuntApp.ObjectForms;
 
 namespace TreasureHuntApp
 {
-    public class MainGameForm : Form
+    partial class MainGameForm : Form
     {
         private GameState gameState;
 
