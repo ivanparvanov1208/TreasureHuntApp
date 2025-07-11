@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
-using TreasureHuntApp.ClassFiles;
+using GoldenQuest.ClassFiles;
 
-namespace TreasureHuntApp.ObjectForms
+namespace GoldenQuest.ObjectForms
 {
     public partial class PuzzleForm : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace TreasureHuntApp.ClassFiles
+﻿namespace GoldenQuest.ClassFiles
 {
     public class Location
     {

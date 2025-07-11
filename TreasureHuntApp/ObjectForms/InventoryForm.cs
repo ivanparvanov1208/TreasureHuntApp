@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using System.Collections.Generic;
 
-namespace TreasureHuntApp.ObjectForms
+namespace GoldenQuest.ObjectForms
 {
     public partial class InventoryForm : Form
     {

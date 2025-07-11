@@ -1,10 +1,10 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using TreasureHuntApp.ClassFiles;
-using TreasureHuntApp.ObjectForms;
+using GoldenQuest.ClassFiles;
+using GoldenQuest.ObjectForms;
 
-namespace TreasureHuntApp
+namespace GoldenQuest
 {
     partial class MainGameForm : Form
     {

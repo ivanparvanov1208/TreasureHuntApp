@@ -1,8 +1,8 @@
 using System;
 using System.Windows.Forms;
-using TreasureHuntApp;
+using GoldenQuest;
 
-namespace TreasureHuntApp
+namespace GoldenQuest
 {
     static class Program
     {

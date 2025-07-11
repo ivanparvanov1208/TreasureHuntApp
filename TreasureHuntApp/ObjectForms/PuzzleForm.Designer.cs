@@ -1,4 +1,4 @@
-﻿namespace TreasureHuntApp.ObjectForms
+﻿namespace GoldenQuest.ObjectForms
 {
     partial class PuzzleForm
     {

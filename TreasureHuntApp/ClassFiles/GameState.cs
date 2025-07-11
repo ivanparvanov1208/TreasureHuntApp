@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TreasureHuntApp.ClassFiles
+namespace GoldenQuest.ClassFiles
 {
     public class GameState
     {
@@ -84,7 +84,9 @@ namespace TreasureHuntApp.ClassFiles
         {
             Dictionary<Puzzle, string> puzzles = new Dictionary<Puzzle, string>
             {
-                { new Puzzle("Riddle", "What walks on four legs in the morning, two legs at noon, and three legs in the evening?"), "Philosopher's Stone" },
+                { new Puzzle("Aaah a riddle... Could you help me solve it?", "I have teeth but don't bite. I help open doors to your delight"), "Sacred Relic" },
+                { new Puzzle("Here we go, a riddle", "What walks on four legs in the morning, two legs at noon, and three legs in the evening?"), "Philosopher's Stone" },
+                { new Puzzle("Riddle", "Turn my pages to uncover tales. Your next clue hides where knowledge sails."), "Mechanical Device" }
             };
 
             foreach (var puzzle in puzzles)

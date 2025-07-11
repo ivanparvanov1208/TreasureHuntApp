@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace TreasureHuntApp.ObjectForms
+namespace GoldenQuest.ObjectForms
 {
     public partial class HelpForm : Form
     {
