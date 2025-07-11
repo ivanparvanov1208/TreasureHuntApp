@@ -22,15 +22,15 @@ namespace GoldenQuest.ObjectForms
 
         private void BtnSubmit_Click(object sender, EventArgs e)
         {
-            if (puzzle.Name == "Symbol Match" && txtAnswer.Text.ToLower().Contains("circle square triangle"))
+            if (puzzle.Name == "Aaah a riddle... Could you help me solve it?" && txtAnswer.Text.ToLower().Contains("keyhole"))
             {
                 Solved = true;
             }
-            else if (puzzle.Name == "Riddle" && txtAnswer.Text.ToLower().Contains("man"))
+            else if (puzzle.Name == "Riddle" && txtAnswer.Text.ToLower().Contains("book"))
             {
                 Solved = true;
             }
-            else if (puzzle.Name == "Pattern Recognition" && txtAnswer.Text.ToLower().Contains("square"))
+            else if (puzzle.Name == "Here we go, a riddle" && txtAnswer.Text.ToLower().Contains("man"))
             {
                 Solved = true;
             }

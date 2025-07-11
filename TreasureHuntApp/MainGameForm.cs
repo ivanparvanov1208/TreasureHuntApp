@@ -10,6 +10,8 @@ namespace GoldenQuest
     {
         private GameState gameState;
 
+        public bool treasureFound = false;
+
         public MainGameForm()
         {
             InitializeComponent();
@@ -44,12 +46,17 @@ namespace GoldenQuest
                     gameState.Inventory.Add(currentLocation.Treasure);
                     currentLocation.HasPuzzle = false;
                     currentLocation.Treasure = null;
+                    GameState.treasuresFound++;
                 }
             }
             else if (currentLocation.HasTreasure && !currentLocation.HasPuzzle)
             {
-                MessageBox.Show($"You found a {currentLocation.Treasure}!", "Treasure Found", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                gameState.Inventory.Add(currentLocation.Treasure);
+                if (currentLocation.Treasure != null)
+                    MessageBox.Show($"You found a {currentLocation.Treasure}!", "Treasure Found", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    gameState.Inventory.Add(currentLocation.Treasure);
+                    GameState.treasuresFound++;
+                    
+                
                 currentLocation.Treasure = null;
             }
             else if (currentLocation.HasObstacle)

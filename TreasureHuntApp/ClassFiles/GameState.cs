@@ -12,7 +12,7 @@ namespace GoldenQuest.ClassFiles
         public TimeSpan TotalGameTime { get; private set; }
 
         private Random random = new Random();
-        private int treasuresFound = 0;
+        public static int treasuresFound = 0;
         private const int totalTreasures = 5;
         private DateTime startTime;
 
