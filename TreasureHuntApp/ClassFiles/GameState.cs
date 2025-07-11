@@ -84,9 +84,7 @@ namespace TreasureHuntApp.ClassFiles
         {
             Dictionary<Puzzle, string> puzzles = new Dictionary<Puzzle, string>
             {
-                { new Puzzle("Symbol Match", "Match the symbols in the correct order."), "Sacred Relic" },
                 { new Puzzle("Riddle", "What walks on four legs in the morning, two legs at noon, and three legs in the evening?"), "Philosopher's Stone" },
-                { new Puzzle("Pattern Recognition", "Find the next item in the sequence."), "Mechanical Device" }
             };
 
             foreach (var puzzle in puzzles)
